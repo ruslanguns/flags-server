@@ -19,8 +19,8 @@ model Question {
   id         String   @id @default(cuid())
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
-  question   String
-  content    Answer[]
+  content    String
+  answers    Answer[]
   category   Category @relation(fields: [categoryId], references: [id])
   categoryId String
 }
