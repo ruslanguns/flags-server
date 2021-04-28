@@ -1,4 +1,5 @@
 import { Field, ID, ObjectType } from '@nestjs/graphql';
+import { Question } from 'src/question/model/question';
 
 @ObjectType()
 export class Answer {
@@ -19,4 +20,7 @@ export class Answer {
 
   @Field({ nullable: false })
   questionId: string;
+
+  @Field(() => Question, { nullable: false })
+  question: Question;
 }

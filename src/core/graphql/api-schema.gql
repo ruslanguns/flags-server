@@ -1,0 +1,85 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Answer {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  content: String!
+  isCorrect: Boolean!
+  questionId: String!
+  question: Question!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Category {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  questions: [Question!]!
+}
+
+type Question {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  content: String!
+  answers: [Answer!]!
+  category: Category!
+  categoryId: String!
+}
+
+type Query {
+  questions: [Question!]!
+  question(id: String!): Question!
+  answers: [Answer!]!
+  answer(id: String!): Answer!
+  categories: [Category!]!
+  category(id: String!): Category!
+}
+
+type Mutation {
+  createQuestion(input: CreateQuestionDTO!): Question!
+  updateQuestion(input: UpdateQuestionDTO!): Question!
+  deleteQuestion(id: String!): Question!
+  createAnswer(input: CreateAnswerDTO!): Answer!
+  updateAnswer(input: UpdateAnswerDTO!): Answer!
+  deleteAnswer(id: String!): Answer!
+  createCategory(input: CreateCategoryDTO!): Category!
+  updateCategory(input: CreateCategoryDTO!): Category!
+  deleteCategory(id: String!): Category!
+}
+
+input CreateQuestionDTO {
+  content: String!
+  categoryId: String!
+}
+
+input UpdateQuestionDTO {
+  content: String
+  categoryId: String
+  id: String!
+}
+
+input CreateAnswerDTO {
+  content: String!
+  isCorrect: Boolean!
+  questionId: String!
+}
+
+input UpdateAnswerDTO {
+  content: String
+  isCorrect: Boolean
+  questionId: String
+  id: String!
+}
+
+input CreateCategoryDTO {
+  name: String
+}

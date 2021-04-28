@@ -31,7 +31,7 @@ async function main() {
   // await prisma.category.create({
   //   data: {
   //     name: 'questions_all_2',
-  //     question: {
+  //     questions: {
   //       create: [
   //         {
   //           content: 'Pregunta 1',
@@ -78,7 +78,7 @@ async function main() {
   await prisma.category.create({
     data: {
       name: 'questions_all_2',
-      question: {
+      questions: {
         create: jsonData.map((question) => ({
           content: question.default_size,
           answers: {

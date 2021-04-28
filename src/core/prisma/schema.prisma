@@ -12,7 +12,7 @@ model Category {
   createdAt DateTime   @default(now())
   updatedAt DateTime   @updatedAt
   name      String
-  question  Question[]
+  questions Question[]
 }
 
 model Question {
