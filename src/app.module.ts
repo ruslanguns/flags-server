@@ -6,6 +6,12 @@ import { CategoryModule } from './category/category.module';
 import { QuizModule } from './quiz/quiz.module';
 
 @Module({
-  imports: [CoreModule, QuestionModule, AnswerModule, CategoryModule, QuizModule],
+  imports: [
+    CoreModule,
+    QuestionModule,
+    AnswerModule,
+    CategoryModule,
+    QuizModule,
+  ],
 })
 export class AppModule {}

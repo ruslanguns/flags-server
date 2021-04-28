@@ -1,8 +1,8 @@
 const shuffleArray = (array: string[] = []): string[] => {
   return array
-    .map((a) => ({sort: Math.random(), value: a}))
+    .map((a) => ({ sort: Math.random(), value: a }))
     .sort((a, b) => a.sort - b.sort)
-    .map((a) => a.value)
-}
+    .map((a) => a.value);
+};
 
-export default shuffleArray
+export default shuffleArray;
