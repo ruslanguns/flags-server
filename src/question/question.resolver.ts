@@ -1,5 +1,5 @@
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
-import { CreateQuestionDTO } from './dto/create-question.DTO';
+import { CreateQuestionDTO } from './dto/create-question.dto';
 import { UpdateQuestionDTO } from './dto/update-question.dto';
 import { Question } from './model/question';
 import { QuestionService } from './question.service';
