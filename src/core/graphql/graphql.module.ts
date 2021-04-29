@@ -5,6 +5,8 @@ import { join } from 'path';
 @Module({
   imports: [
     GraphQLModule.forRoot({
+      introspection: true,
+      playground: true,
       autoSchemaFile: join(process.cwd(), 'src/core/graphql/api-schema.gql'),
     }),
   ],
