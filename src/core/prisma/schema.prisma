@@ -33,4 +33,5 @@ model Answer {
   questionId String
   content    String
   isCorrect  Boolean  @default(false)
+  url        String
 }

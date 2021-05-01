@@ -3,13 +3,14 @@
 # ------------------------------------------------------
 
 type Answer {
-  id: ID!
-  createdAt: DateTime!
-  updatedAt: DateTime!
-  content: String!
-  isCorrect: Boolean!
-  questionId: String!
-  question: Question!
+  id: ID
+  createdAt: DateTime
+  updatedAt: DateTime
+  content: String
+  isCorrect: Boolean
+  questionId: String
+  question: Question
+  url: String
 }
 
 """
@@ -18,21 +19,48 @@ A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date
 scalar DateTime
 
 type Category {
-  id: ID!
-  createdAt: DateTime!
-  updatedAt: DateTime!
-  name: String!
+  id: ID
+  createdAt: DateTime
+  updatedAt: DateTime
+  name: String
   questions: [Question!]!
 }
 
 type Question {
-  id: ID!
-  createdAt: DateTime!
-  updatedAt: DateTime!
-  content: String!
-  answers: [Answer!]!
-  category: Category!
-  categoryId: String!
+  id: ID
+  createdAt: DateTime
+  updatedAt: DateTime
+  content: String
+  answers: [Answer!]
+  category: Category
+  categoryId: String
+}
+
+type QuizAnswer {
+  id: String
+  content: String
+}
+
+type QuizCategory {
+  id: String
+  name: String
+}
+
+type Quiz {
+  id: String
+  content: String
+  answers: [QuizAnswer!]
+  category: QuizCategory
+  createdAt: DateTime
+}
+
+type Metadata {
+  url: String
+}
+
+type QuizResult {
+  result: Boolean
+  metadata: Metadata
 }
 
 type Query {
@@ -42,6 +70,17 @@ type Query {
   answer(id: String!): Answer!
   categories: [Category!]!
   category(id: String!): Category!
+  quiz(input: QuizDTO!): Quiz!
+  doQuiz(input: CheckAnswerDTO!): QuizResult!
+}
+
+input QuizDTO {
+  categoryId: String
+}
+
+input CheckAnswerDTO {
+  questionId: String
+  selectedAnswerId: String
 }
 
 type Mutation {
@@ -68,15 +107,17 @@ input UpdateQuestionDTO {
 }
 
 input CreateAnswerDTO {
-  content: String!
-  isCorrect: Boolean!
-  questionId: String!
+  content: String
+  isCorrect: Boolean
+  questionId: String
+  url: String
 }
 
 input UpdateAnswerDTO {
   content: String
   isCorrect: Boolean
   questionId: String
+  url: String
   id: String!
 }
 

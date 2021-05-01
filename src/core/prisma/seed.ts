@@ -1,99 +1,42 @@
 import { PrismaClient } from '.prisma/client';
+import * as fs from 'fs';
+import { join } from 'path';
+
 import shuffleArray from '../../common/helpers/shuffle-array.helper';
-
-const jsonData = [
-  {
-    default_size: 'https://flagcdn.com/256x192/dz.png',
-    mini_size: 'https://flagcdn.com/128x96/dz.png',
-    correct: 'Algeria',
-    incorrects: ['Ethiopia', 'Afghanistan', 'Tanzania'],
-    url: '/algeria',
-  },
-  {
-    default_size: 'https://flagcdn.com/256x192/ao.png',
-    mini_size: 'https://flagcdn.com/128x96/ao.png',
-    correct: 'Angola',
-    incorrects: ['San Marino', 'Gambia', 'Lithuania'],
-    url: '/angola',
-  },
-  {
-    default_size: 'https://flagcdn.com/256x192/bj.png',
-    mini_size: 'https://flagcdn.com/128x96/bj.png',
-    correct: 'Benin',
-    incorrects: ['Belize', 'Slovakia', 'DR Congo'],
-    url: '/benin',
-  },
-];
-
 const prisma = new PrismaClient();
+const dataDir = join(__dirname, '../..', 'data');
+const filesNames = fs.readdirSync(dataDir);
+const files = filesNames.map((file: string) => ({
+  name: file.split('.')[0],
+  data: JSON.parse(fs.readFileSync(`${dataDir}/${file}`, 'utf-8')),
+}));
 
 async function main() {
-  // await prisma.category.create({
-  //   data: {
-  //     name: 'questions_all_2',
-  //     questions: {
-  //       create: [
-  //         {
-  //           content: 'Pregunta 1',
-  //           answers: {
-  //             create: [
-  //               {
-  //                 content: 'Respuesta 1',
-  //                 isCorrect: false
-  //               },
-  //               {
-  //                 content: 'Respuesta 2',
-  //                 isCorrect: false
-  //               },
-  //               {
-  //                 content: 'Respuesta 3',
-  //                 isCorrect: false
-  //               },
-  //             ]
-  //           }
-  //         },
-  //         {
-  //           content: 'Pregunta 2',
-  //           answers: {
-  //             create: [
-  //               {
-  //                 content: 'Respuesta 4',
-  //                 isCorrect: false
-  //               },
-  //               {
-  //                 content: 'Respuesta 5',
-  //                 isCorrect: true
-  //               },
-  //               {
-  //                 content: 'Respuesta 6',
-  //                 isCorrect: false
-  //               },
-  //             ]
-  //           }
-  //         }
-  //       ]
-  //     }
-  //   }
-  // })
-  await prisma.category.create({
-    data: {
-      name: 'questions_all_2',
-      questions: {
-        create: jsonData.map((question) => ({
-          content: question.default_size,
-          answers: {
-            create: shuffleArray([
-              ...question.incorrects,
-              question.correct,
-            ]).map((answer) => ({
-              content: answer,
-              isCorrect: answer === question.correct,
+  const result = Promise.all(
+    files.map(async (file) => {
+      return await prisma.category.create({
+        data: {
+          name: file.name,
+          questions: {
+            create: file.data.map((question) => ({
+              content: question.default_size,
+              answers: {
+                create: shuffleArray([
+                  ...question.incorrects,
+                  question.correct,
+                ]).map((answer) => ({
+                  content: answer,
+                  isCorrect: answer === question.correct,
+                  url: question.url,
+                })),
+              },
             })),
           },
-        })),
-      },
-    },
-  });
+        },
+      });
+    }),
+  );
+  await result;
 }
 
 main()

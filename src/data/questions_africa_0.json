@@ -1,0 +1,423 @@
+[
+  {
+    "default_size": "https://flagcdn.com/256x192/dz.png",
+    "mini_size": "https://flagcdn.com/128x96/dz.png",
+    "correct": "Algeria",
+    "incorrects": ["Eswatini", "Mali", "Tunisia"],
+    "url": "/algeria"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ao.png",
+    "mini_size": "https://flagcdn.com/128x96/ao.png",
+    "correct": "Angola",
+    "incorrects": ["Tanzania", "Kenya", "Malawi"],
+    "url": "/angola"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/bj.png",
+    "mini_size": "https://flagcdn.com/128x96/bj.png",
+    "correct": "Benin",
+    "incorrects": ["Gabon", "Ghana", "Lesotho"],
+    "url": "/benin"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/bw.png",
+    "mini_size": "https://flagcdn.com/128x96/bw.png",
+    "correct": "Botswana",
+    "incorrects": ["Gabon", "Cameroon", "British Indian Ocean Territory"],
+    "url": "/botswana"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/io.png",
+    "mini_size": "https://flagcdn.com/128x96/io.png",
+    "correct": "British Indian Ocean Territory",
+    "incorrects": ["Ethiopia", "Central African Republic", "Equatorial Guinea"],
+    "url": "/british-indian-ocean-territory"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/bf.png",
+    "mini_size": "https://flagcdn.com/128x96/bf.png",
+    "correct": "Burkina Faso",
+    "incorrects": ["Djibouti", "Cape Verde", "Republic of the Congo"],
+    "url": "/burkina-faso"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/bi.png",
+    "mini_size": "https://flagcdn.com/128x96/bi.png",
+    "correct": "Burundi",
+    "incorrects": ["Rwanda", "Kenya", "Somalia"],
+    "url": "/burundi"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/cm.png",
+    "mini_size": "https://flagcdn.com/128x96/cm.png",
+    "correct": "Cameroon",
+    "incorrects": ["Egypt", "Angola", "Cape Verde"],
+    "url": "/cameroon"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/cv.png",
+    "mini_size": "https://flagcdn.com/128x96/cv.png",
+    "correct": "Cape Verde",
+    "incorrects": ["Guinea-Bissau", "Lesotho", "Ghana"],
+    "url": "/cape-verde"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/cf.png",
+    "mini_size": "https://flagcdn.com/128x96/cf.png",
+    "correct": "Central African Republic",
+    "incorrects": ["South Sudan", "Egypt", "Niger"],
+    "url": "/the-central-african-republic"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/td.png",
+    "mini_size": "https://flagcdn.com/128x96/td.png",
+    "correct": "Chad",
+    "incorrects": ["Burkina Faso", "Togo", "Djibouti"],
+    "url": "/chad"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/km.png",
+    "mini_size": "https://flagcdn.com/128x96/km.png",
+    "correct": "Comoros",
+    "incorrects": ["Mauritania", "Zambia", "Tanzania"],
+    "url": "/the-comoros"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/cg.png",
+    "mini_size": "https://flagcdn.com/128x96/cg.png",
+    "correct": "Republic of the Congo",
+    "incorrects": ["Ghana", "Zambia", "Ethiopia"],
+    "url": "/the-republic-of-the-congo"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/cd.png",
+    "mini_size": "https://flagcdn.com/128x96/cd.png",
+    "correct": "DR Congo",
+    "incorrects": ["Eritrea", "Uganda", "Zimbabwe"],
+    "url": "/the-democratic-republic-of-the-congo"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ci.png",
+    "mini_size": "https://flagcdn.com/128x96/ci.png",
+    "correct": "Côte d'Ivoire",
+    "incorrects": ["Cameroon", "Guinea", "Republic of the Congo"],
+    "url": "/cote-d-ivoire"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/dj.png",
+    "mini_size": "https://flagcdn.com/128x96/dj.png",
+    "correct": "Djibouti",
+    "incorrects": ["Burkina Faso", "South Africa", "Réunion"],
+    "url": "/djibouti"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/eg.png",
+    "mini_size": "https://flagcdn.com/128x96/eg.png",
+    "correct": "Egypt",
+    "incorrects": ["DR Congo", "Seychelles", "Angola"],
+    "url": "/egypt"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/gq.png",
+    "mini_size": "https://flagcdn.com/128x96/gq.png",
+    "correct": "Equatorial Guinea",
+    "incorrects": ["Chad", "Botswana", "Burkina Faso"],
+    "url": "/equatorial-guinea"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/er.png",
+    "mini_size": "https://flagcdn.com/128x96/er.png",
+    "correct": "Eritrea",
+    "incorrects": ["Gambia", "DR Congo", "Kenya"],
+    "url": "/eritrea"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/sz.png",
+    "mini_size": "https://flagcdn.com/128x96/sz.png",
+    "correct": "Eswatini",
+    "incorrects": ["Guinea", "DR Congo", "Malawi"],
+    "url": "/swaziland"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/et.png",
+    "mini_size": "https://flagcdn.com/128x96/et.png",
+    "correct": "Ethiopia",
+    "incorrects": ["Seychelles", "Togo", "Sierra Leone"],
+    "url": "/ethiopia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ga.png",
+    "mini_size": "https://flagcdn.com/128x96/ga.png",
+    "correct": "Gabon",
+    "incorrects": ["Uganda", "São Tomé and Príncipe", "Togo"],
+    "url": "/gabon"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/gm.png",
+    "mini_size": "https://flagcdn.com/128x96/gm.png",
+    "correct": "Gambia",
+    "incorrects": ["Sudan", "São Tomé and Príncipe", "Uganda"],
+    "url": "/the-gambia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/gh.png",
+    "mini_size": "https://flagcdn.com/128x96/gh.png",
+    "correct": "Ghana",
+    "incorrects": [
+      "Saint Helena, Ascension and Tristan da Cunha",
+      "Namibia",
+      "Benin"
+    ],
+    "url": "/ghana"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/gn.png",
+    "mini_size": "https://flagcdn.com/128x96/gn.png",
+    "correct": "Guinea",
+    "incorrects": ["Equatorial Guinea", "Guinea-Bissau", "Libya"],
+    "url": "/guinea"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/gw.png",
+    "mini_size": "https://flagcdn.com/128x96/gw.png",
+    "correct": "Guinea-Bissau",
+    "incorrects": ["Somalia", "Kenya", "Cameroon"],
+    "url": "/guinea-bissau"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ke.png",
+    "mini_size": "https://flagcdn.com/128x96/ke.png",
+    "correct": "Kenya",
+    "incorrects": ["Réunion", "Angola", "Rwanda"],
+    "url": "/kenya"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ls.png",
+    "mini_size": "https://flagcdn.com/128x96/ls.png",
+    "correct": "Lesotho",
+    "incorrects": ["Burundi", "Guinea", "Senegal"],
+    "url": "/lesotho"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/lr.png",
+    "mini_size": "https://flagcdn.com/128x96/lr.png",
+    "correct": "Liberia",
+    "incorrects": ["South Africa", "Mayotte", "Cape Verde"],
+    "url": "/liberia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ly.png",
+    "mini_size": "https://flagcdn.com/128x96/ly.png",
+    "correct": "Libya",
+    "incorrects": ["Algeria", "Lesotho", "Lesotho"],
+    "url": "/libya"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/mg.png",
+    "mini_size": "https://flagcdn.com/128x96/mg.png",
+    "correct": "Madagascar",
+    "incorrects": ["Niger", "Cameroon", "Liberia"],
+    "url": "/madagascar"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/mw.png",
+    "mini_size": "https://flagcdn.com/128x96/mw.png",
+    "correct": "Malawi",
+    "incorrects": ["Uganda", "Comoros", "Somalia"],
+    "url": "/malawi"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ml.png",
+    "mini_size": "https://flagcdn.com/128x96/ml.png",
+    "correct": "Mali",
+    "incorrects": ["South Sudan", "Gabon", "Eritrea"],
+    "url": "/mali"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/mr.png",
+    "mini_size": "https://flagcdn.com/128x96/mr.png",
+    "correct": "Mauritania",
+    "incorrects": ["Somalia", "Comoros", "Liberia"],
+    "url": "/mauritania"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/mu.png",
+    "mini_size": "https://flagcdn.com/128x96/mu.png",
+    "correct": "Mauritius",
+    "incorrects": ["Réunion", "Namibia", "Algeria"],
+    "url": "/mauritius"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/yt.png",
+    "mini_size": "https://flagcdn.com/128x96/yt.png",
+    "correct": "Mayotte",
+    "incorrects": ["Republic of the Congo", "Mozambique", "Djibouti"],
+    "url": "/mayotte"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ma.png",
+    "mini_size": "https://flagcdn.com/128x96/ma.png",
+    "correct": "Morocco",
+    "incorrects": ["Libya", "Zambia", "Djibouti"],
+    "url": "/morocco"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/mz.png",
+    "mini_size": "https://flagcdn.com/128x96/mz.png",
+    "correct": "Mozambique",
+    "incorrects": ["Seychelles", "Namibia", "Seychelles"],
+    "url": "/mozambique"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/na.png",
+    "mini_size": "https://flagcdn.com/128x96/na.png",
+    "correct": "Namibia",
+    "incorrects": ["Burundi", "Seychelles", "Cape Verde"],
+    "url": "/namibia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ne.png",
+    "mini_size": "https://flagcdn.com/128x96/ne.png",
+    "correct": "Niger",
+    "incorrects": ["Liberia", "Benin", "Tanzania"],
+    "url": "/niger"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ng.png",
+    "mini_size": "https://flagcdn.com/128x96/ng.png",
+    "correct": "Nigeria",
+    "incorrects": ["Mauritania", "Cape Verde", "Namibia"],
+    "url": "/nigeria"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/re.png",
+    "mini_size": "https://flagcdn.com/128x96/re.png",
+    "correct": "Réunion",
+    "incorrects": ["Gabon", "Equatorial Guinea", "Central African Republic"],
+    "url": "/reunion"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/rw.png",
+    "mini_size": "https://flagcdn.com/128x96/rw.png",
+    "correct": "Rwanda",
+    "incorrects": [
+      "Burkina Faso",
+      "Madagascar",
+      "Saint Helena, Ascension and Tristan da Cunha"
+    ],
+    "url": "/rwanda"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/sh.png",
+    "mini_size": "https://flagcdn.com/128x96/sh.png",
+    "correct": "Saint Helena, Ascension and Tristan da Cunha",
+    "incorrects": ["Sudan", "South Africa", "Cameroon"],
+    "url": "/saint-helena-ascension-and-tristan-da-cunha"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/st.png",
+    "mini_size": "https://flagcdn.com/128x96/st.png",
+    "correct": "São Tomé and Príncipe",
+    "incorrects": ["Nigeria", "Western Sahara", "Cameroon"],
+    "url": "/sao-tome-and-principe"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/sn.png",
+    "mini_size": "https://flagcdn.com/128x96/sn.png",
+    "correct": "Senegal",
+    "incorrects": ["Benin", "Angola", "Tunisia"],
+    "url": "/senegal"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/sc.png",
+    "mini_size": "https://flagcdn.com/128x96/sc.png",
+    "correct": "Seychelles",
+    "incorrects": ["Nigeria", "Liberia", "Tanzania"],
+    "url": "/the-seychelles"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/sl.png",
+    "mini_size": "https://flagcdn.com/128x96/sl.png",
+    "correct": "Sierra Leone",
+    "incorrects": ["Namibia", "Namibia", "British Indian Ocean Territory"],
+    "url": "/sierra-leone"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/so.png",
+    "mini_size": "https://flagcdn.com/128x96/so.png",
+    "correct": "Somalia",
+    "incorrects": ["Burundi", "Mauritius", "Sierra Leone"],
+    "url": "/somalia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/za.png",
+    "mini_size": "https://flagcdn.com/128x96/za.png",
+    "correct": "South Africa",
+    "incorrects": ["Senegal", "Tunisia", "Zambia"],
+    "url": "/south-africa"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ss.png",
+    "mini_size": "https://flagcdn.com/128x96/ss.png",
+    "correct": "South Sudan",
+    "incorrects": ["Botswana", "Gabon", "Chad"],
+    "url": "/south-sudan"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/sd.png",
+    "mini_size": "https://flagcdn.com/128x96/sd.png",
+    "correct": "Sudan",
+    "incorrects": ["South Africa", "Cameroon", "Cape Verde"],
+    "url": "/sudan"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/tz.png",
+    "mini_size": "https://flagcdn.com/128x96/tz.png",
+    "correct": "Tanzania",
+    "incorrects": ["Cameroon", "Namibia", "Eritrea"],
+    "url": "/tanzania"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/tg.png",
+    "mini_size": "https://flagcdn.com/128x96/tg.png",
+    "correct": "Togo",
+    "incorrects": ["Equatorial Guinea", "Rwanda", "Mauritania"],
+    "url": "/togo"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/tn.png",
+    "mini_size": "https://flagcdn.com/128x96/tn.png",
+    "correct": "Tunisia",
+    "incorrects": ["Tanzania", "Egypt", "DR Congo"],
+    "url": "/tunisia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/ug.png",
+    "mini_size": "https://flagcdn.com/128x96/ug.png",
+    "correct": "Uganda",
+    "incorrects": ["Togo", "Eritrea", "Tanzania"],
+    "url": "/uganda"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/eh.png",
+    "mini_size": "https://flagcdn.com/128x96/eh.png",
+    "correct": "Western Sahara",
+    "incorrects": ["Mauritania", "Mozambique", "DR Congo"],
+    "url": "/western-sahara"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/zm.png",
+    "mini_size": "https://flagcdn.com/128x96/zm.png",
+    "correct": "Zambia",
+    "incorrects": ["Eritrea", "Guinea", "Guinea"],
+    "url": "/zambia"
+  },
+  {
+    "default_size": "https://flagcdn.com/256x192/zw.png",
+    "mini_size": "https://flagcdn.com/128x96/zw.png",
+    "correct": "Zimbabwe",
+    "incorrects": ["São Tomé and Príncipe", "Mali", "Djibouti"],
+    "url": "/zimbabwe"
+  }
+]
