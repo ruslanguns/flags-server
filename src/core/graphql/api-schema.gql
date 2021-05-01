@@ -79,7 +79,7 @@ input QuizDTO {
 }
 
 input CheckAnswerDTO {
-  questionId: String
+  quizId: String
   selectedAnswerId: String
 }
 

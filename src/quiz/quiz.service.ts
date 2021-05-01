@@ -61,7 +61,7 @@ export class QuizService {
     const answer = await this.data.answer.findFirst({
       where: {
         id: input.selectedAnswerId,
-        questionId: input.questionId,
+        questionId: input.quizId,
       },
     });
 
