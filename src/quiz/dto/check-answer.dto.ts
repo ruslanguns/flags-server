@@ -6,7 +6,7 @@ export class CheckAnswerDTO {
   @IsNotEmpty()
   @IsString()
   @Field({ nullable: true })
-  questionId: string;
+  quizId: string;
 
   @IsNotEmpty()
   @IsString()

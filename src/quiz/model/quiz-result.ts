@@ -11,6 +11,6 @@ export class QuizResult {
   @Field({ nullable: true })
   result: boolean;
 
-  @Field({ nullable: true })
+  @Field(() => Metadata, { nullable: true })
   metadata: Metadata;
 }
