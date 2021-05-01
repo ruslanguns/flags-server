@@ -4,24 +4,24 @@ import { Category } from 'src/category/model/category';
 
 @ObjectType()
 export class Question {
-  @Field(() => ID, { nullable: false })
+  @Field(() => ID, { nullable: true })
   id: string;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   createdAt: Date;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   updatedAt: Date;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   content: string;
 
-  @Field(() => [Answer], { nullable: false })
+  @Field(() => [Answer], { nullable: true })
   answers: Answer[];
 
-  @Field(() => Category, { nullable: false })
+  @Field(() => Category, { nullable: true })
   category: Category;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   categoryId: string;
 }

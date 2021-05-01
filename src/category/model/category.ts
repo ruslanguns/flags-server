@@ -3,16 +3,16 @@ import { Question } from 'src/question/model/question';
 
 @ObjectType()
 export class Category {
-  @Field(() => ID, { nullable: false })
+  @Field(() => ID, { nullable: true })
   id: string;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   createdAt: Date;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   updatedAt: Date;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   name: string;
 
   @Field(() => [Question])

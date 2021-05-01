@@ -3,24 +3,27 @@ import { Question } from 'src/question/model/question';
 
 @ObjectType()
 export class Answer {
-  @Field(() => ID, { nullable: false })
+  @Field(() => ID, { nullable: true })
   id: string;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   createdAt: Date;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   updatedAt: Date;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   content: string;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   isCorrect: boolean;
 
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   questionId: string;
 
-  @Field(() => Question, { nullable: false })
+  @Field(() => Question, { nullable: true })
   question: Question;
+
+  @Field({ nullable: true })
+  url: string;
 }

@@ -5,15 +5,20 @@ import { IsBoolean, IsNotEmpty, IsString } from 'class-validator';
 export class CreateAnswerDTO {
   @IsString()
   @IsNotEmpty()
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   content: string;
 
   @IsBoolean()
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   isCorrect: boolean;
 
   @IsNotEmpty()
   @IsString()
-  @Field({ nullable: false })
+  @Field({ nullable: true })
   questionId: string;
+
+  @IsString()
+  @IsNotEmpty()
+  @Field({ nullable: true })
+  url: string;
 }
